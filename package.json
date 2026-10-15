@@ -1,0 +1,15 @@
+{
+  "name": "configwatch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compare a versioned baseline with actual configuration, then inspect an approval-gated repair plan.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "analyze": "node run.mjs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "configwatch",
+  "name": "ConfigWatch",
+  "field": "Security automation & tooling",
+  "roles": "Security Engineer I \u00b7 Security Automation Engineer",
+  "headline": "Know exactly what drifted.",
+  "description": "Compare a versioned baseline with actual configuration, then inspect an approval-gated repair plan.",
+  "accent": "#315f61",
+  "pale": "#e4eeeb",
+  "display": "Space Grotesk",
+  "action": "Compare configuration",
+  "guide": [
+    "Inspect disabled audit logging, short retention, public storage, and missing MFA in the sample.",
+    "Approve applying the plan to the isolated copy. Compare before, after, and rollback snapshots.",
+    "Edit the baseline or import your own sanitized JSON. Unsafe property paths are rejected."
+  ],
+  "limits": "The engine reads and modifies JSON copies. It does not connect to a cloud account, enforce organizational policy, or mutate host settings."
+}
