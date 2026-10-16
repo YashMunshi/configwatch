@@ -4,7 +4,11 @@ Compare a versioned baseline with actual configuration, then inspect an approval
 
 **Field:** Security automation & tooling  
 **Relevant roles:** Security Engineer I · Security Automation Engineer  
-**Status:** working prototype; hosting status is tracked separately.
+**Status:** working prototype, published on GitHub and Vercel.
+
+[**Open the live interactive lab**](https://configwatch.vercel.app/)
+
+The hosted lab runs synthetic exercises in your browser. See the scope below for local integration exercises and limitations.
 
 ## Run
 
